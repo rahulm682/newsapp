@@ -7,8 +7,7 @@ function App() {
   const pageSize = 9;
   const country = "us";
   // Hiding api key in '.env.local' file
-  // const apiKey = process.env.REACT_APP_NEWS_API_KEY;
-  const apiKey = "9887443c51544c5f9a5b8ec7da128e75";
+  const apiKey = process.env.REACT_APP_NEWS_API_KEY;
   console.log(apiKey);
   return (
     <div className="App">
